@@ -1,0 +1,38 @@
+#ex01 .wrapper .box:hover{
+    background: var(--midnight-green);
+}
+ 
+#ex02 .wrapper .box{
+    transition: background 0.5s;
+}
+ 
+#ex02 .wrapper .box:hover{
+    background: var(--midnight-green);
+}
+ 
+#ex03 .wrapper .box {
+    transition: background 0.5s 0.5s;
+}
+ 
+#ex03 .wrapper .box:hover{
+    background: var(--midnight-green);
+}
+
+#ex04 .wrapper .box {
+    transition: all 0.3s 0.3s;
+}
+
+#ex04 .wrapper .box:hover {
+    background: var(--midnight-green);
+    color: var(--beige);
+}
+
+#ex05 .wrapper .box {
+    transition: background 0.3s 0.3s;
+    transition-delay: color 0.4s 0.1s;
+}
+
+#ex05 .wrapper .box:hover {
+    background: var(--midnight-green);
+    color: var(--beige);
+}
